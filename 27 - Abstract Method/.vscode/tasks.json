@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "run java main",
+      "type": "shell",
+      "command": "java",
+      "args": [
+        "--enable-preview",
+        "-cp",
+        "./bin",
+        "com.belajar.Main",
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+    }
+  ]
+}
